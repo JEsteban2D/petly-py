@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-tq(v5s$ox4t(=$tw_!alsr%k6$r56aker^ua8$!dpy!+@=wew9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost','*']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','*', 'https://petly-py.onrender.com']
 
 
 # Application definition
