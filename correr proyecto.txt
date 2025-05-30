@@ -1,0 +1,11 @@
+
+instalar dependencias 
+pip install -r requirements.txt
+
+correr codigo 
+python manage.py runserver 127.0.0.1:8001
+
+http://127.0.0.1:8001/admin
+
+user123
+user123
