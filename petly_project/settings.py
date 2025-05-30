@@ -25,13 +25,14 @@ SECRET_KEY = 'django-insecure-tq(v5s$ox4t(=$tw_!alsr%k6$r56aker^ua8$!dpy!+@=wew9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost','*', 'https://petly-py.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','*', 'https://petly-py.onrender.com', 'https://petly-py.onrender.com/admin']
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'admin_interface',
+    'colorfield',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,7 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'clinica', 
-    'colorfield',
     
 ]
 X_FRAME_OPTIONS='SAMEORIGIN'
